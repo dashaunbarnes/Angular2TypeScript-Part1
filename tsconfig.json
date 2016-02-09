@@ -25,6 +25,8 @@
     "files": [
         "app/boot.ts",
         "app/components/app.component.ts",
+        "app/components/app.customercomponent.ts",
+        "app/models/Address.ts",
         "app/models/Customer.ts",
         "typings/angular2/angular2-2.0.0-alpha.39.d.ts",
         "typings/angular2/http-2.0.0-alpha.39.d.ts",

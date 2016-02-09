@@ -1,8 +1,16 @@
-export class Customer {
-  name: string;
+import {Address} from './Address';
 
-  constructor (nm : string) {
+export class Customer {
+  name: String;
+  streetaddress: String;
+  state: String;
+  phonenumber: String;
+  email: String;
+  address: Address;
+
+  constructor (nm: string) {
     this.name = nm;
+    this.address = new Address();
   }
 
 }
